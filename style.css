@@ -1,0 +1,102 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: url(./resources/Background_image@3x.png);
+    background-color: #121826;
+    color: #E5E7EB;
+}
+.main{
+    width: 640px;
+    padding: 1rem;
+    /* border: 1px solid white; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-section{
+    text-align: center;
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.small-heading{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #D2D5DA;
+}
+.small-heading-color{
+    color: #9DA3AE;
+}
+.body-text{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.cards-section{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    justify-content: center;
+    /* align-items: center; */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #212936;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 300px;
+}
+.card-text{
+    padding: 0 1rem;
+    /* width: 260px; */
+    /* border: 1px solid red; */
+}
+
+.card-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+#hand{
+    background-color: yellow;
+}
+#net{
+    background-color: lightblue;
+}
+#msg{
+    background-color: beige;
+}
+.card-img{
+    width: fit-content;
+}
+img{
+    border-radius: 1rem;
+}
+
+@media (min-width:1024px) {
+    .main{
+        width: 1024px;
+    }
+}
+@media (min-width:1280px) {
+    .main{
+        width: 1280px;
+    }
+}
